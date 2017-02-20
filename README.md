@@ -19,63 +19,32 @@ UIRainView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "UIRainView"
+pod "CustomTextField"
 ```
 
 ### 2. Manual
 
-Add `UIRainView.swift` file into your project.
+Add `CustomTextField.swift` file into your project.
 
 ## Usage
 
-### 1. Import UIRainView in any class you want to use it.
+### 1. Import CustomTextField in any class you want to use it.
 
-import UIRainView
+import CustomTextField
 
-### 2.1. Add using XIB or UIStoryboard
+### 1.1. Add Following code to your ViewController
 
-- Add UIView to your view.
-- Give class name `UIRainView` to that UIView in Identity Inspactor.
-- Go to attribute inspactor and give Rain String value (Default is 💧) and Rain fall interval (Default is 5).
-- Connect IBOutlet of `UIRainView`
-- **Start** rain by calling : `rainView?.rain()`
-- **Stop** rain by calling : `rainView?.drizzle()`
+- Assgin delegate of Textfield to viewController
+- Implement 'shouldChangeCharactersIn' method of UITextFieldDelegate.
+- return false for the textfield you want to mask the text.
+- Call textField.shouldChangeValue(cardNumberBuffer: String)
 
-### 2.2. Add direcly into the code.
-
-```swift
-import UIKit
-import UIRainView
-
-class ViewController: UIViewController {
-
-var rainView:UIRainView?
-
-override func viewDidLoad() {
-super.viewDidLoad()
-rainView = UIRainView()
-rainView?.frame = view.frame
-view.addSubview(rainView!)
-
-rainView?.rainString = "💧🎊🎉❤️💝💜💙💚💛🍰"
-rainView?.rainFallInterval = 7
-rainView?.rain()   //Start raining
-}
-
-}
-```
-To **Stop** raining try following,
-
-```swift
-rainView?.drizzle()
-```
-
-CustomTextField is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "CustomTextField"
-```
+<!--CustomTextField is available through [CocoaPods](http://cocoapods.org). To install-->
+<!--it, simply add the following line to your Podfile:-->
+<!---->
+<!--```ruby-->
+<!--pod "CustomTextField"-->
+<!--```-->
 
 ## Author
 

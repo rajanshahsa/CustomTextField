@@ -38,8 +38,8 @@ import CustomTextField
 - Implement 'shouldChangeCharactersIn' method of UITextFieldDelegate.
 - return false for the textfield you want to mask the text.
 - Call textField.shouldChangeValue(cardNumberBuffer: String)
-
-`if (string.characters.count > 0)
+```swift
+if (string.characters.count > 0)
 {
 if (self.isMaxLength(textField)) {
 return false
@@ -58,7 +58,8 @@ else
 {
 self.cardNumberBuffer = ""
 }
-}`
+}
+```
 
 
 <!--CustomTextField is available through [CocoaPods](http://cocoapods.org). To install-->

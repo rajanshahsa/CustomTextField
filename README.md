@@ -35,10 +35,15 @@ import CustomTextField
 ### 1.1. Add Following code to your ViewController
 
 - Assgin delegate of Textfield to viewController
+- Declare a String variable to hold Textfield value for later purpose.
+```swift
+var cardNumberBuffer : String = ""
+```
 - Implement 'shouldChangeCharactersIn' method of UITextFieldDelegate.
 - return false for the textfield you want to mask the text.
 - Call textField.shouldChangeValue(cardNumberBuffer: String)
 ```swift
+func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
 if (string.characters.count > 0)
 {
 if (self.isMaxLength(textField)) {
@@ -58,6 +63,21 @@ else
 {
 self.cardNumberBuffer = ""
 }
+}
+
+textField.shouldChangeValue(cardNumberBuffer: self.cardNumberBuffer)
+return false
+}
+
+func isMaxLength(_ textField:UITextField) -> Bool {
+var result = false
+
+if ((textField.text?.characters.count)! > 19)
+{
+result = true
+}
+
+return result
 }
 ```
 

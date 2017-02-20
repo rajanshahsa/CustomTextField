@@ -7,31 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA5656A84618A86D5930C269795FEF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		43CD8922D06CCDB9FD6A3E3CFCC1E707 /* Pods-CustomTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD814344C8F02E216D2B3A87E79AFC0 /* Pods-CustomTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544BC8A389BE476796D8812C72AFE730 /* CustomTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A55152555E1F61BCB0FAD66298F667 /* CustomTextField-dummy.m */; };
-		608C1EC34121AA11EC391F638A130278 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4BC48D47B7FA52A3DEA297512CE2C5 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E38A3ACDDBFFC0A1D10D2CB5C514BE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
-		73B3A59302A51525C4C5B1C8D4CD71C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		93FFE1D781EB5E5E2E08BFA1A28C1CF3 /* Pods-CustomTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA2E9AE35E3B4B2BFD3F8DA35B74D3 /* Pods-CustomTextField_Tests-dummy.m */; };
+		73B3A59302A51525C4C5B1C8D4CD71C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8E7011CC9DFE263AA0EBC9A367796345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		A1BFDBCA8BC4C3CDFAE75952441CAA8F /* Pods-CustomTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4DB1E6706167C83E9A85BF75C0610B /* Pods-CustomTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B75A89099947F7D704B96EC08126BFAE /* Pods-CustomTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D18F75CCEF6F66D7F4340610D8FC0 /* Pods-CustomTextField_Example-dummy.m */; };
-		BF40B0DB2FE17C785754643A3A0490B4 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05B778E1B37985EBC078D0C5BA74992 /* Toast-Swift-dummy.m */; };
+		C6A2B7DBF8DA903DC917797ED67DBA7C /* Pods-CustomTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCA2E9AE35E3B4B2BFD3F8DA35B74D3 /* Pods-CustomTextField_Tests-dummy.m */; };
 		CE84E284EF2BD59147BB03585EFE845D /* CustomTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F38E17E1CDB23ED2B918309F731E15FF /* CustomTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3FB15598013047C6D3F66E4C30712DF /* Pods-CustomTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BD814344C8F02E216D2B3A87E79AFC0 /* Pods-CustomTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D85F41D70982653FDA17C0EA0ED8C0D8 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */; };
 		E6205114A27489F2DC39C3657D2B48DE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D76AEC285984E49266BF5C2AA7932A /* CustomTextField.swift */; };
-		F2631DB9441D56F53A2912A0BD76DE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
-		F5254E8272A3521E6B86887AEDF5D29B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		F2631DB9441D56F53A2912A0BD76DE17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C40E626498E014A45BAB3E244C75623 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 717454FBF757086E4CA72BF9D5F71193;
-			remoteInfo = "Toast-Swift";
-		};
 		3D0157A78FF884DD26542B4126B84A43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -48,58 +36,40 @@
 		131FB2D7DD817BF2D1D8FCB282E7CCB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E2048C5137FBDB051C899D7BF76428E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D07272ED6C0DBC1C6E332C2AC86361D /* Pods-CustomTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3175BC6BBF1947FC7ADA4806B0DE45B8 /* Pods_CustomTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTextField_Tests.framework; path = "Pods-CustomTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D4DDF0C8A2D7F8B5700B0970B94355 /* CustomTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomTextField.xcconfig; sourceTree = "<group>"; };
 		39484762D6041C9F690034E2328DC0F6 /* Pods-CustomTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CustomTextField_Tests.modulemap"; sourceTree = "<group>"; };
-		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3EC15E32285DBC926CA7451F8085B438 /* Pods-CustomTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CustomTextField_Example.modulemap"; sourceTree = "<group>"; };
 		44FFDB225D1B1F43AB3023DEBF73C664 /* Pods-CustomTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4E4DB1E6706167C83E9A85BF75C0610B /* Pods-CustomTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		5615BB4D85F8F702D8247C18F32795AB /* CustomTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CustomTextField.modulemap; sourceTree = "<group>"; };
 		5FE7EC32554282C81A74E9138FED841D /* Pods-CustomTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		64BC49DD35F32FF1F28F60D6ED4D30B8 /* Pods-CustomTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		6EA8286BF4DE385C701CA45D89A7C39F /* CustomTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomTextField.framework; path = CustomTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD814344C8F02E216D2B3A87E79AFC0 /* Pods-CustomTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CustomTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7CD27F85BA00D48BAD8334D414332C09 /* Pods-CustomTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		80AF76E14F5A559012DACDC8A7C437D8 /* Pods_CustomTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTextField_Tests.framework; path = "Pods-CustomTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		810CB369661D508A3ACDA81BE4BE63CE /* Pods-CustomTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
-		82216B445A9D888E1E622EA44E60F887 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
-		ABF56BFCA3814CA73BD58BA6A6ADF3DB /* Pods_CustomTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTextField_Example.framework; path = "Pods-CustomTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
 		B4AB648E707E65BFF63CDA3660125FA4 /* Pods-CustomTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomTextField_Tests-resources.sh"; sourceTree = "<group>"; };
 		B4C583C9F1177B94782A231880292677 /* CustomTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomTextField-prefix.pch"; sourceTree = "<group>"; };
-		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C0A55152555E1F61BCB0FAD66298F667 /* CustomTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomTextField-dummy.m"; sourceTree = "<group>"; };
-		CBAA452DC428152CC82DD57E67113031 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
-		CE4BC48D47B7FA52A3DEA297512CE2C5 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		D31E09673E88729EE06D49BF4000B63E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C83B2CCBF415C06A03DB8AF53FADB883 /* Pods_CustomTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CustomTextField_Example.framework; path = "Pods-CustomTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D6ED18CE8A8AF0BCADEBC4173F9A5A55 /* Pods-CustomTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD35B46EFF2B9AF6442A5C18C357A25B /* Pods-CustomTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E05B778E1B37985EBC078D0C5BA74992 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
 		E31800C3BC44BF8512BFC4553E3A0121 /* Pods-CustomTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E63D18F75CCEF6F66D7F4340610D8FC0 /* Pods-CustomTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomTextField_Example-dummy.m"; sourceTree = "<group>"; };
-		EABDB54613A0AD83FE7FE7BA05B774A3 /* CustomTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CustomTextField.framework; path = CustomTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF4B80AA0EC82DDEBE58C7176C14703 /* Pods-CustomTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EB41C258CD7735FC1364672C0B0427F7 /* Pods-CustomTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE18B53B4D5DBDC5263EE6262E2583DD /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
 		F38E17E1CDB23ED2B918309F731E15FF /* CustomTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomTextField-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9E252121DC3E7BE669666825FBD684D /* Frameworks */ = {
+		6F17C78711A6D4070B72BE317C236603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA5656A84618A86D5930C269795FEF4 /* Foundation.framework in Frameworks */,
-				6E38A3ACDDBFFC0A1D10D2CB5C514BE9 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2582D3C459CAB3D9427BFCFEC448029 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5254E8272A3521E6B86887AEDF5D29B /* Foundation.framework in Frameworks */,
+				8E7011CC9DFE263AA0EBC9A367796345 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,16 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */,
-				91FFC9D276F2D51EC5F3FF59947B6F5A /* Support Files */,
-			);
-			name = "Toast-Swift";
-			path = "Toast-Swift";
-			sourceTree = "<group>";
-		};
 		30C1DE6BA99B36297ED394375F811F07 /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,14 +100,6 @@
 			);
 			name = CustomTextField;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		53C24F316331695A28B60E2BA3690BA9 /* Pods-CustomTextField_Tests */ = {
@@ -186,15 +138,12 @@
 			path = CustomTextField;
 			sourceTree = "<group>";
 		};
-		71FD77FBD5C167D18D0E05EA7127D221 /* Products */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EABDB54613A0AD83FE7FE7BA05B774A3 /* CustomTextField.framework */,
-				ABF56BFCA3814CA73BD58BA6A6ADF3DB /* Pods_CustomTextField_Example.framework */,
-				80AF76E14F5A559012DACDC8A7C437D8 /* Pods_CustomTextField_Tests.framework */,
-				82216B445A9D888E1E622EA44E60F887 /* Toast_Swift.framework */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -202,9 +151,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BE3E3A51E9DD13A36E4E1FDEDDC9B357 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */,
-				71FD77FBD5C167D18D0E05EA7127D221 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BEC36428A671FB7934103455764A62E3 /* Products */,
 				A7FD70B762458E4B65D2D1007201CCDC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -221,20 +169,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CustomTextField";
-			sourceTree = "<group>";
-		};
-		91FFC9D276F2D51EC5F3FF59947B6F5A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D31E09673E88729EE06D49BF4000B63E /* Info.plist */,
-				EE18B53B4D5DBDC5263EE6262E2583DD /* Toast-Swift.modulemap */,
-				AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */,
-				E05B778E1B37985EBC078D0C5BA74992 /* Toast-Swift-dummy.m */,
-				CBAA452DC428152CC82DD57E67113031 /* Toast-Swift-prefix.pch */,
-				CE4BC48D47B7FA52A3DEA297512CE2C5 /* Toast-Swift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
 			sourceTree = "<group>";
 		};
 		9CB9D2898021EBCFF20CBB4CC6637F9E /* Pods-CustomTextField_Example */ = {
@@ -264,6 +198,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE3E3A51E9DD13A36E4E1FDEDDC9B357 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,21 +214,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
+		BEC36428A671FB7934103455764A62E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
-				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
+				6EA8286BF4DE385C701CA45D89A7C39F /* CustomTextField.framework */,
+				C83B2CCBF415C06A03DB8AF53FADB883 /* Pods_CustomTextField_Example.framework */,
+				3175BC6BBF1947FC7ADA4806B0DE45B8 /* Pods_CustomTextField_Tests.framework */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */,
-			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,14 +235,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A602D5D7DA879CCC9E27984B7A192D51 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3FB15598013047C6D3F66E4C30712DF /* Pods-CustomTextField_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DB1706ED29320D4F1A0819433E612F13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,11 +243,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBB1E8212687E5CE1A12EC185F67A2B2 /* Headers */ = {
+		E4466AFC3C4A052B142FD8857CFDA0DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				608C1EC34121AA11EC391F638A130278 /* Toast-Swift-umbrella.h in Headers */,
+				43CD8922D06CCDB9FD6A3E3CFCC1E707 /* Pods-CustomTextField_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,42 +269,7 @@
 			);
 			name = "Pods-CustomTextField_Example";
 			productName = "Pods-CustomTextField_Example";
-			productReference = ABF56BFCA3814CA73BD58BA6A6ADF3DB /* Pods_CustomTextField_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		717454FBF757086E4CA72BF9D5F71193 /* Toast-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EF0C6A2B66A507E762F8F7BA7B87DEB4 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
-			buildPhases = (
-				48989AD797B79F638A697E5627DE95ED /* Sources */,
-				B9E252121DC3E7BE669666825FBD684D /* Frameworks */,
-				EBB1E8212687E5CE1A12EC185F67A2B2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Toast-Swift";
-			productName = "Toast-Swift";
-			productReference = 82216B445A9D888E1E622EA44E60F887 /* Toast_Swift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CF5C1282E83B9DD01F28DC9356E6DBA1 /* Pods-CustomTextField_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58A5142AE4D2B006E2CE274540DF45D6 /* Build configuration list for PBXNativeTarget "Pods-CustomTextField_Tests" */;
-			buildPhases = (
-				F8B697EA7E5177768959A3DFC01A7993 /* Sources */,
-				C2582D3C459CAB3D9427BFCFEC448029 /* Frameworks */,
-				A602D5D7DA879CCC9E27984B7A192D51 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				736EA276D023229F614CED8A924A21E3 /* PBXTargetDependency */,
-			);
-			name = "Pods-CustomTextField_Tests";
-			productName = "Pods-CustomTextField_Tests";
-			productReference = 80AF76E14F5A559012DACDC8A7C437D8 /* Pods_CustomTextField_Tests.framework */;
+			productReference = C83B2CCBF415C06A03DB8AF53FADB883 /* Pods_CustomTextField_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D05BDA9DBF92CCD6C2913414FDE0B38C /* CustomTextField */ = {
@@ -394,7 +286,24 @@
 			);
 			name = CustomTextField;
 			productName = CustomTextField;
-			productReference = EABDB54613A0AD83FE7FE7BA05B774A3 /* CustomTextField.framework */;
+			productReference = 6EA8286BF4DE385C701CA45D89A7C39F /* CustomTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA63A99E4122FED7A1FA31AED87FDF56 /* Pods-CustomTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55AA6CC3390FC263628F11081D0304F1 /* Build configuration list for PBXNativeTarget "Pods-CustomTextField_Tests" */;
+			buildPhases = (
+				4BB44A37570C2455B4FAA7C8216CF0E0 /* Sources */,
+				6F17C78711A6D4070B72BE317C236603 /* Frameworks */,
+				E4466AFC3C4A052B142FD8857CFDA0DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CustomTextField_Tests";
+			productName = "Pods-CustomTextField_Tests";
+			productReference = 3175BC6BBF1947FC7ADA4806B0DE45B8 /* Pods_CustomTextField_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -414,14 +323,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 71FD77FBD5C167D18D0E05EA7127D221 /* Products */;
+			productRefGroup = BEC36428A671FB7934103455764A62E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D05BDA9DBF92CCD6C2913414FDE0B38C /* CustomTextField */,
 				41A2FB46EB4F7C6699C50A86B931AD4B /* Pods-CustomTextField_Example */,
-				CF5C1282E83B9DD01F28DC9356E6DBA1 /* Pods-CustomTextField_Tests */,
-				717454FBF757086E4CA72BF9D5F71193 /* Toast-Swift */,
+				EA63A99E4122FED7A1FA31AED87FDF56 /* Pods-CustomTextField_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -435,12 +343,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48989AD797B79F638A697E5627DE95ED /* Sources */ = {
+		4BB44A37570C2455B4FAA7C8216CF0E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF40B0DB2FE17C785754643A3A0490B4 /* Toast-Swift-dummy.m in Sources */,
-				D85F41D70982653FDA17C0EA0ED8C0D8 /* Toast.swift in Sources */,
+				C6A2B7DBF8DA903DC917797ED67DBA7C /* Pods-CustomTextField_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,23 +360,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B697EA7E5177768959A3DFC01A7993 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93FFE1D781EB5E5E2E08BFA1A28C1CF3 /* Pods-CustomTextField_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		736EA276D023229F614CED8A924A21E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Toast-Swift";
-			target = 717454FBF757086E4CA72BF9D5F71193 /* Toast-Swift */;
-			targetProxy = 3C40E626498E014A45BAB3E244C75623 /* PBXContainerItemProxy */;
-		};
 		E98B7E1CD0852CE2659AFA4C62BD1D33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CustomTextField;
@@ -479,73 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E9B6F80554F9559A6116E47020C9032 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4A9B91857E5E90F108AF95C87EED619D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD35B46EFF2B9AF6442A5C18C357A25B /* Pods-CustomTextField_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CustomTextField_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CustomTextField_Tests/Pods-CustomTextField_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CustomTextField_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		663781B2D8C5A56C0A8A1E8EAC7D14E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E31800C3BC44BF8512BFC4553E3A0121 /* Pods-CustomTextField_Example.debug.xcconfig */;
@@ -581,6 +407,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7035DCAECAC2974F1BBDD71AF7DF2BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD35B46EFF2B9AF6442A5C18C357A25B /* Pods-CustomTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CustomTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CustomTextField_Tests/Pods-CustomTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CustomTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		842E03974E65A71E726810CAD2157165 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -766,40 +627,7 @@
 			};
 			name = Debug;
 		};
-		F6DEFD7FD7C06739CC0C5C111ED748C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC21E042593269EBEF50C9C60FC9B024 /* Toast-Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F79A21E49A2BFB5E0E1A33E5BE160DA3 /* Debug */ = {
+		DBECBD244A899A560CC14E651663ABA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6ED18CE8A8AF0BCADEBC4173F9A5A55 /* Pods-CustomTextField_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -828,7 +656,6 @@
 				PRODUCT_NAME = Pods_CustomTextField_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -856,11 +683,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58A5142AE4D2B006E2CE274540DF45D6 /* Build configuration list for PBXNativeTarget "Pods-CustomTextField_Tests" */ = {
+		55AA6CC3390FC263628F11081D0304F1 /* Build configuration list for PBXNativeTarget "Pods-CustomTextField_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F79A21E49A2BFB5E0E1A33E5BE160DA3 /* Debug */,
-				4A9B91857E5E90F108AF95C87EED619D /* Release */,
+				DBECBD244A899A560CC14E651663ABA8 /* Debug */,
+				7035DCAECAC2974F1BBDD71AF7DF2BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -870,15 +697,6 @@
 			buildConfigurations = (
 				663781B2D8C5A56C0A8A1E8EAC7D14E7 /* Debug */,
 				912E72F9D12CA436226470FDB40165C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF0C6A2B66A507E762F8F7BA7B87DEB4 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F6DEFD7FD7C06739CC0C5C111ED748C7 /* Debug */,
-				1E9B6F80554F9559A6116E47020C9032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

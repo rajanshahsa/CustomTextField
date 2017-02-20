@@ -34,7 +34,7 @@ import CustomTextField
 
 ### 1.1. Add Following code to your ViewController
 
-- Assgin delegate of Textfield to viewController
+- Assgin Textfield's delegate to viewController
 - Declare a String variable to hold Textfield value for later purpose.
 ```swift
 var cardNumberBuffer : String = ""

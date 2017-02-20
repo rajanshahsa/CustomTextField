@@ -6,6 +6,6 @@ target 'CustomTextField_Example' do
   target 'CustomTextField_Tests' do
     inherit! :search_paths
 
-    
+ pod 'Toast-Swift', '~> 2.0.0'
   end
 end

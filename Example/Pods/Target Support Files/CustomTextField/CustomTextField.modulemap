@@ -1,0 +1,6 @@
+framework module CustomTextField {
+  umbrella header "CustomTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

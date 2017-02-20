@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CustomTextField'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'CustomTextField is used to mask the text entered in textfield(e.g: Credit card number -> "**** **** **** 1111").'
 
 # This description is used to generate tags and improve search results.

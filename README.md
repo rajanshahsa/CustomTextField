@@ -39,6 +39,28 @@ import CustomTextField
 - return false for the textfield you want to mask the text.
 - Call textField.shouldChangeValue(cardNumberBuffer: String)
 
+`if (string.characters.count > 0)
+{
+if (self.isMaxLength(textField)) {
+return false
+}
+
+self.cardNumberBuffer = String(format: "%@%@", self.cardNumberBuffer, string)
+}
+else
+{
+if (self.cardNumberBuffer.characters.count > 1)
+{
+let length = self.cardNumberBuffer.characters.count-1
+self.cardNumberBuffer = self.cardNumberBuffer[self.cardNumberBuffer.index(self.cardNumberBuffer.startIndex, offsetBy: 0)...self.cardNumberBuffer.index(self.cardNumberBuffer.startIndex, offsetBy: length-1)]
+}
+else
+{
+self.cardNumberBuffer = ""
+}
+}`
+
+
 <!--CustomTextField is available through [CocoaPods](http://cocoapods.org). To install-->
 <!--it, simply add the following line to your Podfile:-->
 <!---->

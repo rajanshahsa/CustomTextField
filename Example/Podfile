@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomTextField_Example' do
+  pod 'CustomTextField', :path => '../'
+
+  target 'CustomTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

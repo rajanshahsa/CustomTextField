@@ -1,5 +1,5 @@
 # CustomTextField
-
+CustomTextField is used to mask the text entered in textfield(e.g: Credit card number -> "**** **** **** 1111").
 [![CI Status](http://img.shields.io/travis/rajanshahsa/CustomTextField.svg?style=flat)](https://travis-ci.org/rajanshahsa/CustomTextField)
 [![Version](https://img.shields.io/cocoapods/v/CustomTextField.svg?style=flat)](http://cocoapods.org/pods/CustomTextField)
 [![License](https://img.shields.io/cocoapods/l/CustomTextField.svg?style=flat)](http://cocoapods.org/pods/CustomTextField)

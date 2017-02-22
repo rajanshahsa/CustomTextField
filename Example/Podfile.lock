@@ -1,16 +1,19 @@
 PODS:
-  - CustomTextField (1.0.0)
+  - CustomTextField (1.0.2)
+  - Toast-Swift (2.0.0)
 
 DEPENDENCIES:
   - CustomTextField (from `../`)
+  - Toast-Swift (~> 2.0.0)
 
 EXTERNAL SOURCES:
   CustomTextField:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CustomTextField: a1b295af206c8f235bc7762b21999a160e3e13b4
+  CustomTextField: e6e1afdd8d4e969e08cc6c194373228e464c35ca
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
 
-PODFILE CHECKSUM: efa69b7fb9640a7c3a896d9b0f4d6d3a39e4f7db
+PODFILE CHECKSUM: e200ae347a67244e81c5cc81c901369ff674f846
 
 COCOAPODS: 1.2.0
